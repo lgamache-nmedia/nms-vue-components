@@ -1,0 +1,41 @@
+﻿// colors
+$c1: #f6be00;
+$c1h: #cd9c00;
+
+$c2: #1179ff;
+$c2h: #0d5bff;
+
+$text: #ffffff;
+$placeholder: #a0a0a0;
+$border: #d1d1d1;
+$disable: #ededed;
+$background: #1b1d1b;
+$dark: #161716;
+
+$success: #1eba3d;
+$warning: #ff8f4f;
+$error: #ff5f5f;
+$errorh: #ff3838;
+$error2: #ffd7d7;
+
+//fonts
+$font1: 'Roboto', sans-serif;
+
+// Valeurs
+$radiusBig: 9px;
+$radius: 6px;
+$radiusSmall: 3px;
+
+// Temps
+$t1: 0.15s;
+$t2: 0.25s;
+$t3: 0.5s;
+
+// Mixins
+@function rem($target, $context: 16) {
+  @return ($target / $context) * 1rem;
+}
+
+@function percent($elem, $container: 950) {
+  @return #{(($elem * 100) / $container) + '%'};
+}
