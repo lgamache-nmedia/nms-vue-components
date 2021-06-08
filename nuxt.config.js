@@ -1,7 +1,9 @@
 export default {
   // Target: https://go.nuxtjs.dev/config-target
   target: 'static',
-
+  router: {
+    base: '/nms-vue-components/',
+  },
   // Global page headers: https://go.nuxtjs.dev/config-head
   head: {
     title: 'nms-vue-components-nuxt',
